@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(0, 0, 0, .4);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 400px 0px rgba(0, 0, 0, 0.75);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  background-color: rgba(25, 118, 210, 0.5);
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.input {
+  padding: 10px;
+}
+
+.para p {
+  font-size: 13px !important;
+  color: grey;
+}
+
+.or {
+  margin: -8px 0;
+}
+
+.userName {
+  font-family: 'Segoe Script';
+}
+
+.todo-main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #1976d2;
+  background-color: #fff;
+  margin: auto;
+}
+
+.todo-input {
+  text-align: center;
+  margin: 15px auto;
+}
+
+hr.hr1 {
+  background-color: rgba(25, 118, 210, 0.5);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
 }
